@@ -1,5 +1,5 @@
 html {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Serif", serif;
   background-color: #fff;
 }
 
@@ -29,10 +29,6 @@ input[type="checkbox"] + label::before {
 
 input[type="radio"] + label::before {
   border-color: #6e8c62;
-}
-
-.special {
-  font-size: 1.25rem;
 }
 
 .btn {
