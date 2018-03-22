@@ -2,3 +2,54 @@ html {
   font-family: "Noto Sans", serif;
   background-color: #fff;
 }
+
+header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.first {
+  border: 2px solid #70ad55;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.one {
+  color: #70ad55;
+}
+
+input, select, textarea {
+  border-color: #6e8c62;
+}
+
+input[type="checkbox"] + label::before {
+  border-color: #6e8c62;
+}
+
+input[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
+.special {
+  font-size: 1.25rem;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+  color: #fff;
+}
+
+.foot {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .unique {
+    padding-right: 1.5rem;
+  }
+
+}
