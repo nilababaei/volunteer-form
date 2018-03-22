@@ -41,7 +41,7 @@ input[type="radio"] + label::before {
   color: #fff;
 }
 
-.foot {
+.col {
   background-color: #70ad55;
   color: #fff;
 }
